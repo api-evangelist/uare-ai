@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://www.uare.ai and https://app.uare.ai
+hosts:
+- host: https://www.uare.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://app.uare.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+notes: >-
+  No well-known discovery documents are published on either the marketing host
+  (www.uare.ai) or the application host (app.uare.ai). No api.*, docs.*,
+  developer.*, developers.*, status.*, or mcp.* subdomains resolve in DNS
+  (probed 2026-07-21). Absence recorded as valid data.

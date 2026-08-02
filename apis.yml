@@ -1,19 +1,49 @@
 aid: uare-ai
-name: Uare Ai
-description: Uare Ai is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Uare.ai
+description: Uare.ai is a consumer Individual AI platform founded by LivePerson founder
+  Rob LoCascio that lets people build and own a personal AI trained on their own voice,
+  knowledge, and experiences, organized by its proprietary Human Life Model across seven
+  dimensions (Identity, World, Story, Mindset, Drive, Pattern, Growth). The company raised
+  a $10.3M seed led by Mayfield and Boldstart Ventures in November 2025. Memberships are
+  metered in Credits and include MCP tool integrations that connect an Individual AI to
+  1000+ applications, with iOS and Android apps alongside the web app at app.uare.ai.
+  Uare.ai publishes no public developer API, API documentation, or SDKs as of July 2026.
 url: https://raw.githubusercontent.com/api-evangelist/uare-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.uare.ai/opengraph-image.png?opengraph-image.0w9t.9ytr8xqa.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - mayfield
+- boldstart-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Personal AI
+- Digital Twin
+- Consumer
+- Voice
+- MCP
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,19 @@ maintainers:
 common:
 - type: Website
   url: https://uare.ai
+- type: Blog
+  url: https://www.uare.ai/blog
+- type: Pricing
+  url: https://www.uare.ai/pricing
+- type: SignUp
+  url: https://app.uare.ai/login
+- type: TermsOfService
+  url: https://www.uare.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.uare.ai/privacy-policy
+- type: TrustCenter
+  url: security/uare-ai-trust-center.yml
+- type: DomainSecurity
+  url: security/uare-ai-domain-security.yml
+- type: LLMsTxt
+  url: llms/uare-ai-llms.txt

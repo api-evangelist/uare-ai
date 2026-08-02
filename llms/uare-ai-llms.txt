@@ -1,0 +1,34 @@
+# Uare.ai
+
+> Uare.ai is a consumer "Individual AI" platform founded by Rob LoCascio (founder of LivePerson) that lets people build and own a personal AI trained on their own voice, knowledge, and experiences — organized by its proprietary Human Life Model across seven dimensions (Identity, World, Story, Mindset, Drive, Pattern, Growth). Raised a $10.3M seed led by Mayfield and Boldstart Ventures (November 2025). The product runs at app.uare.ai with iOS and Android apps; paid plans meter usage in Credits and include MCP tool integrations ("connect to 1000+ applications"). Uare.ai publishes no public developer API, API documentation, or SDKs as of 2026-07-21.
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + https://www.uare.ai (no /llms.txt published; probe returned 404) -->
+
+## Product
+
+- [Platform](https://www.uare.ai/platform): The Human Life Model and how an Individual AI is captured, created, and shared
+- [Pricing](https://www.uare.ai/pricing): Free/Basic/Premium/Professional memberships, Credit costs (chat, MCP actions, image, video), and top-ups
+- [Transformations](https://www.uare.ai/transformations/individuals): Use cases for individuals, business owners, coaches, educators, writers, and creators
+- [Enterprise & SMB](https://www.uare.ai/enterprise-smb): Business offering
+- [Web app](https://app.uare.ai/login): Sign up / log in
+- [iOS app](https://apps.apple.com/us/app/uare-ai/id6759983208)
+- [Android app](https://play.google.com/store/apps/details?id=com.uare.ai)
+
+## Trust & Legal
+
+- [Trust](https://www.uare.ai/trust): Data ownership, privacy (no training of public models), encryption, penetration testing
+- [Trust Center (Vanta)](https://app.vanta.com/uare.ai/trust/nyn8lnq4gcfy37vvb7s6d)
+- [Terms of Service](https://www.uare.ai/terms-of-service)
+- [Privacy Policy](https://www.uare.ai/privacy-policy)
+
+## Company
+
+- [Mission](https://www.uare.ai/our-mission)
+- [Blog](https://www.uare.ai/blog)
+- [Press](https://press.uare.ai/)
+- [Seed announcement](https://www.uare.ai/blog/we-just-raised-10-3m-to-build-the-future-of-individual-ai): $10.3M led by Mayfield and Boldstart Ventures
+
+## API Evangelist profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/uare-ai/refs/heads/main/apis.yml)
+- Note: no public API, developer portal, OpenAPI, or MCP server was found (api./docs./developer./mcp. subdomains do not resolve; /.well-known/ probes returned 404). The platform consumes MCP tools as a client.

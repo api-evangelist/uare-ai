@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://app.vanta.com/uare.ai/trust/nyn8lnq4gcfy37vvb7s6d
+trust_page: https://www.uare.ai/trust
+certifications: []
+evidence:
+- source: https://www.uare.ai/trust
+  keywords:
+  - trust center
+  - penetration tested
+  - data compliance
+  - encrypted
+  - identity verification
+- source: https://app.vanta.com/uare.ai/trust/nyn8lnq4gcfy37vvb7s6d
+  kind: vanta-trust-center
+  status: 200
+notes: >-
+  Uare.ai publishes a Trust page at /trust ("Encrypted, isolated, and
+  independently penetration tested"; data never used to train public models;
+  export/delete controls) linking to a Vanta-hosted Trust Center. The Vanta
+  page is JavaScript-rendered, so no named certifications (SOC 2 / ISO 27001
+  etc.) could be verified from static fetch; certifications intentionally left
+  empty rather than assumed.
