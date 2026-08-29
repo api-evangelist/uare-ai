@@ -9,6 +9,17 @@ description: Uare.ai is a consumer Individual AI platform founded by LivePerson 
   1000+ applications, with iOS and Android apps alongside the web app at app.uare.ai.
   Uare.ai publishes no public developer API, API documentation, or SDKs as of July 2026.
 url: https://raw.githubusercontent.com/api-evangelist/uare-ai/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
